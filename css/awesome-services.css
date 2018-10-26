@@ -20,6 +20,13 @@ margin-top:0px;
 font-style: normal;
 color: #181818;
 }
+p{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #6e6e6e;
+  margin-bottom: 0px;
+}
 .singel-sevices{
   border: 1px solid #006ed9;
   border-radius: 5px;
@@ -45,11 +52,4 @@ border-style:none;
 .content-services h4{
   font-weight: 600;
   margin-bottom: 15px;
-}
-p{
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 26px;
-  color: #6e6e6e;
-  margin-bottom: 0px;
 }

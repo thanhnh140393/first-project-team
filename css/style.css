@@ -12,7 +12,7 @@ body{
 .team ol.carousel-indicators {display: none;}
 
 .team .card {
-    width: 95%;
+    width: 95% !important;
     background-color: #f1f1f1;
     transition: all 0.4s linear;
     border: none;
@@ -252,18 +252,18 @@ li.nav-item { margin-left: 25px;}
 }
 .mt-70{margin-top: 70px; }
 
-.team .carousel-control {
+.team .fas {
     position: absolute;
-    top: 24%;
+    top: 30%;
 }
+.carousel {position: relative;}
+.team .fa-angle-left {left: -4%;}
 
-.team a.left.carousel-control {left: -4%;}
-
-.team .carousel-control {
+.team .slick-arrow {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    line-height: 35px;
+    line-height: 25px;
     text-align: center;
     transform: translateY(50%);
     padding-top: 7px;
@@ -271,11 +271,11 @@ li.nav-item { margin-left: 25px;}
     border: 1px solid #006ed9;
     font-size: 24px;
     transition: all 0.3s ease-in;
+    color: #006ed9;
 }
 
-.team .carousel-control:hover {
+.team .fas:hover {
     background-color: #006ed9;
     color: #fff;
 }
-
-.team a.right.carousel-control {right: -2.4%;}
+.team .fa-angle-right {right: -2.4%;}

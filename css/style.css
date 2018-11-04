@@ -8,8 +8,6 @@ body{
     color: #6e6e6e;
     margin-bottom: 0px;
 }
-<<<<<<< HEAD
-=======
 
 .team ol.carousel-indicators {display: none;}
 
@@ -38,7 +36,6 @@ body{
 .team .card:hover {box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.25);}
 
 .team .card:hover img { transform: scale(1.1);}
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9
 .about-text ul.nav li a {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -50,13 +47,7 @@ body{
     position: relative;
 }
 
-<<<<<<< HEAD
-.about-text ul.nav li:hover a {
-    color: #181818 !important;
-}
-=======
 .about-text ul.nav li:hover a {color: #181818 !important;}
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9
 
 .about-text .nav-pills .nav-link.active, .about-text .nav-pills .nav-link:hover .nav-item {
     background: #fff;
@@ -69,8 +60,6 @@ body{
     width: 100%;
     color: #181818;
 }
-<<<<<<< HEAD
-=======
 
 .about-text ul.nav .nav-item {margin-left: 10px;}
 
@@ -118,59 +107,8 @@ span.video_icoin {
     text-transform: uppercase;
     font-weight: 700;
 }
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9
 
-.about-text ul.nav .nav-item {margin-left: 10px;}
-
-.about-text ul.nav .nav-item:hover .nav-link:before, .about-text .nav-pills .nav-link.active.nav-link:before {
-    width: 100%;
-}
-
-.about-text ul.nav .nav-item:first-child { margin-left: 0;}
-
-.about-text h3 {
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.about-text span {
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #1f8ffd;
-    padding-bottom: 15px;
-}
-
-.title h2 {
-    color: #181818;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-span.video_icoin {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 3;
-}
-
-.video_icoin a i {
-    font-size: 22px;
-    color: #fff;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    z-index: 1444444;
-    background: #3099ff;
-    border-radius: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    line-height: 50px;
-}
-.about-video img {   width: 100%;}
-
-.about-video { position: relative;}
-
-
-.slider-caption .btn,  .join-text .btn {
+.slider-caption .btn {
     border: 1px solid #1e90ff;
     background-color: transparent;
     padding: 12px 30px;
@@ -189,7 +127,7 @@ span.video_icoin {
     border-radius: 0;
 }
 
-.slider-caption .btn-buytheme:before, .btn-contact:before{
+.slider-caption .btn-buytheme:before, .slider-caption .btn-contact:before{
     content: '';
     position: absolute;
     width: 0%;
@@ -201,28 +139,13 @@ span.video_icoin {
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
 }
-<<<<<<< HEAD
-.slider-caption .btn-buytheme:hover::before {
-    width: 100%;
-}
-
-.btn-contact:before{
-=======
 .slider-caption .btn-buytheme:hover::before { width: 100%;}
 .slider-caption .btn-contact:before{
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9
     width: 100%;
     right: 0;
     left: auto;
 }
-<<<<<<< HEAD
-.btn-contact:hover::before{
-    width: 0%;
-    
-}
-=======
 .slider-caption .btn-contact:hover::before {  width: 0%  }
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9
 .title-container {
     display: table-cell;
     vertical-align: middle;
@@ -274,10 +197,7 @@ span.video_icoin {
     z-index: 1;
     opacity: 0.7;
 }
-<<<<<<< HEAD
-=======
 .about-video:before{opacity: 0.5}
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {background: rgb(13, 13, 13)!important;}
 
@@ -308,55 +228,6 @@ a.nav-link {
 
 .menu li:hover a.nav-link:before, .menu li.active a.nav-link:before {width: 100%;}
 
-<<<<<<< HEAD
-li.nav-item {margin-left: 25px;}
-
-.join {
-    background-image: url(http://info-sajjad.com/html/kitkat/img/bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.pt-95{padding-top:95px;}
-.pb-100{padding-bottom: 100px;}
-
-.join {
-    margin-top: 20%;
-    position: relative;
-}
-
-.join-text {
-    position: relative;
-    z-index: 3;
-}
-
-.join:before {
-    background: #000 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    opacity: 0.7;
-}
-
-.join h5 {
-    color: #1d91ff;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.join h2 {
-    color: #fff;
-    font-size: 32px;
-    margin-bottom: 30px;
-    font-weight: 700;
-}
-=======
 li.nav-item { margin-left: 25px;}
 
 .team li.nav-item {
@@ -408,4 +279,3 @@ li.nav-item { margin-left: 25px;}
     color: #fff;
 }
 .team .fa-angle-right {right: -2.4%;}
->>>>>>> 610e1820408778868e2a6a930531557b597c58a9

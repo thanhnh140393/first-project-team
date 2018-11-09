@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans' sans-serif;
+}
+.section-title h2{
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+p{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #6e6e6e;
+  margin-bottom: 0px;
+}
+.project{
+    padding-bottom: 100px;
+    padding-top: 90px;
+    background-color: #f6f6f6;
+}
+.project-menu{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.project-menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #353535;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+.project-menu ul li::before {
+	content: '';
+	position: absolute;
+	left: -13px;
+	top: 4px;
+	width: 1px;
+	height: 16px;
+	background-color: #353535;
+	transform: rotate(20deg);
+}
+.project-menu ul li:first-child::before {
+    display: none;
+}
+.project-menu ul li.active,
+.project-menu li:hover{
+    color: #1e90ff;
+}
+
+.project .singel-items{
+    margin-top: 30px;
+    position: relative;
+}
+.project .singel-items .items-img{
+    position: relative;
+    overflow: hidden; /*ẩn text tràn ra */
+}
+.project .singel-items .items-img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+	background-color: rgba(30, 144, 255, 0.7);
+    opacity: 0;
+    transition: all 0.4s linear; /*cho chuyển động bằng nhau từ bắt đầu đến kết thúc*/
+}
+.project .singel-items:hover .items-img::before{
+    opacity: 1;
+}
+
+.project .singel-items .items-img img{
+    width: 100%;
+}
+.project .singel-items .items-cont {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    overflow: hidden;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.project .singel-items .items-cont h3{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    transform: translateX(-100%);
+    transition: all 0.4s linear;
+    opacity: 0;
+}
+.project .singel-items .items-cont a{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    transform: translateX(-100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.project .singel-items .items-cont a i{
+    margin-left: 8px;
+}
+
+.project .singel-items:hover .items-cont,
+.project .singel-items:hover .items-cont h3,
+.project .singel-items:hover .items-cont a{
+    transform: translateX(0%);
+    opacity: 1;
+}
